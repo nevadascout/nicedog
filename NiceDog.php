@@ -97,7 +97,7 @@ class NiceDog {
     }
       
     /* Singleton */
-    public function getInstance()
+    public static function getInstance()
       {
         if(self::$instance == NULL)
         {
